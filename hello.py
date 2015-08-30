@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 
+from algorithm.test import Test
 
 def main():
-    print 'hello git'
+    t = Test('this is a test')
 
 if __name__ == '__main__':
     main()
